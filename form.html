@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cybervie Training Enrolment Form |  Cybervie</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style type="text/css">
+    body{
+        font-family: Candara Light, sans-serif;;
+    }
+    	#Course_Title{
+    		font-size: 36px;
+    		margin-left: 150px;
+            font-family: Candara Light, sans-serif;
+
+    	}
+    	.col-8{
+    		margin-top: 40px;
+    	}
+    	.form-horizontal{
+    		background-color: white;
+    		width: 950px;
+    		margin-left: 150px;
+    		border-radius: 6px;
+    	}
+    	label{
+    		font-size: 20px;
+    		color: gray;
+    		font-family: Candara Light, sans-serif;
+    	}
+    	.form-control{
+    		margin-left: 50px;
+    	}
+    	 table {
+    	 	margin-left: 20px;
+    	 }
+    	 .submit {
+    	 	background-color: blue;
+    	 	color: white;
+    	 	border-color: blue;
+    	 	width: 100px;
+    	 	height: 40px;
+    	 	border-radius: 10px;
+    	 	border: 2px solid blue;
+    	 	cursor: pointer;
+            margin-top: 50px;
+
+    	 }
+
+    	 .reset {
+    	 	background-color: white;
+    	 	color: black;
+    	 	width: 100px;
+    	 	height: 40px;
+    	 	border-radius: 10px;
+    	 	border: 2px solid white;
+    	 	cursor: pointer;
+            margin-top: 50px;
+
+    	 }
+
+    	 button:hover {
+    	 	background-color: gray;
+    	 }
+         .form-control
+         {
+            display: block;
+            border-color: lightgray;
+            border: 1px solid gray;
+            
+
+         }
+         .form-check-input{
+            line-height: 2;
+
+         }
+
+    </style>
+</head>
+
+<body>
+<div id="navbar_2" style="margin-bottom: 25px;">
+    <nav>
+        <a href="#" class="navbar-brand d-flex mr-auto">
+            <img src="gif-cyberlogo.gif" alt="Cybervie Logo"  style="max-height: 50px; max-width: 175px;"/>
+        </a>
+        
+        
+    </nav>
+</div>
+<div style="background-color: #f0f5f5;">
+    <div class="container" style="max-width: 1000px;">
+        <div class="row ">
+            <div class="col-8">
+                <h2 id="Course_Title">Cybervie Training Enrolment Form</h2>
+            </div>
+        </div>
+    </div>
+    <form class="form-horizontal" name="enrolment_form" action="" method="post"  >
+    	<table>
+    <div class="container" style="max-width: 1000px;">
+        <div class="card no-border" style="border: 0;border-radius: 15px;">
+            <div class="card-body"  style="padding: 2%;">
+                                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" style="line-height: 2;" for="first_name">First Name</label></td>
+                        <td><input class="form-control"style="line-height: 3; width: 500px;border-radius: 4px;" id="first_name" type="text" name="first_name" placeholder="" required="required"></td></tr>
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" for="last_name" style="line-height: 2;">Last Name</label></td>
+                  
+                        <td><input class="form-control" id="last_name" type="text" name="last_name" placeholder="" required="required" style="line-height: 3; width: 500px;border-radius: 4px;"></td></tr>
+                  
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" for="phone_number" style="line-height: 2;">Phone Number</label></td>
+                  <td>
+                        <input class="form-control" style="line-height: 3;width: 500px;border-radius: 4px;" id="phone_number" type="tel" name="phone_number" placeholder="" required="required"></td></tr>
+                  
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" style="line-height: 2;" for="email_id">Email</label></td>
+                  <td>
+                        <input class="form-control" style="line-height: 3;width: 500px;border-radius: 4px;" id="email_id" type="email" name="email_id" placeholder="" autocomplete="email" required="required"></td></tr>
+                  
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" style="line-height: 2;" for="education">Educational Background</label></td>
+                  
+                        <td><input class="form-control" style="line-height: 3;width: 500px;border-radius: 4px;" id="education" type="text" name="education" placeholder="" required="required"></td></tr>
+                  
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" style="line-height: 2;">Work Experience</label></td>
+                    <div class="col-md-9 col-form-label">
+                        <div class="form-check">
+                            <td><input class="form-check-input" style="margin-left: 50px;" id="work_experience_1" type="radio" value="Fresher" name="work_experience" required="required">
+                            <label class="form-check-label" for="work_experience_1">Fresher</label></td>
+                        </div>
+                        <div class="form-check">
+                            <td><input class="form-check-input" id="work_experience_2" style="margin-left:-300px" type="radio" value="Experienced" name="work_experience" required="required"></td>
+                            <td><label class="form-check-label" style="margin-left:-280px" for="work_experience_2">Experienced</label></td></tr>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" for="experience_details">Work Experience Details</label></td>
+                    
+                        <td><input class="form-control" style="line-height: 3;width: 500px;border-radius: 4px;" id="experience_details" type="text" name="experience_details" placeholder=""></td></tr>
+                    
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" for="course_expectations">Expectation after completion of course</label></td>
+                    
+                        <td><input class="form-control" style="line-height: 3;width: 500px;border-radius: 4px;" id="course_expectations" type="text" name="course_expectations" placeholder="" required="required"></td></tr>
+                    
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label" style="line-height: 2;" for="why_cybervie">Why Cybervie?</label></td>
+                    
+                        <td><input class="form-control" style="line-height: 3;width: 500px; border-radius: 4px;" id="why_cybervie" type="text" name="why_cybervie" placeholder="" required="required"></td></tr>
+                    
+                </div>
+                <div class="form-group row"><tr>
+                    <td><label class="col-md-3 col-form-label">How did you know about Cybervie?</label></td>
+                    <div class="col-md-9 col-form-label">
+                        
+                            <td><input class="form-check-input" style="margin-left:50px" id="awareness_channel_1" type="radio" value="Referral" name="awareness_channel">
+                            <label class="form-check-label" for="awareness_channel_1">Referral</label></td>
+                        
+                        <div class="form-check">
+                            <td><input class="form-check-input" id="awareness_channel_2"style="margin-left:-300px" type="radio" value="Web" name="awareness_channel"></td>
+                            <td><label class="form-check-label" style="margin-left:-280px" for="awareness_channel_2">Web</label></td>
+                        </div>
+                        </tr>
+                    </div>
+                </div>
+                <input type="hidden" name="csrf_token" id="csrf_token" class="form-control" value="c2bb55fc445a54ccbb2a31c6c894df9c">
+                <div class="form-group" ><tr>
+                    <td><button class="submit" type="submit" > Submit</button>
+                    <button class="reset" type="reset"> Reset</button></td></tr>
+                </div>
+            </div>
+        </div>
+    </div></table>
+    </form>
+    </div>
+</body>
+</html>
